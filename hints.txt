@@ -1,0 +1,7 @@
+str=[str str0(pos0(i)+1:pos(i)-1) sprintf('0x%X',str0(pos(i)))]; by
+
+str=[str str0(pos0(i)+1:pos(i)-1) sprintf('0x%X',toascii(str0(pos(i))))]; and
+
+str=sprintf('x0x%X_%s',char(str(1)),str(2:end)); by
+
+str=sprintf('x0x%X_%s',toascii(str(1)),str(2:end)); in loadjson.m and makeValidFieldName.m
